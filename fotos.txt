@@ -1,0 +1,99 @@
+@charset "UTF-8";
+
+ul#album{
+	width: 700px;
+	margin: 0 auto;
+	padding: 50px;
+	overflow: hidden;
+	list-style:none;
+
+
+} 
+
+
+/*ul#album li{
+	float:left;
+	width:500px; 200px
+	height:500px; 200px
+	margin: 10px;
+	border:5px solid white;
+	background-color: white;
+	box-shadow:1px 1px 3px rgba(0,0,0,.4);
+}*/
+
+ul#album li#foto01 {
+	background: url("album/foto01.jpg") no-repeat;
+	background-position: 50px 50px;
+	background-size: 550px 409px;
+	background-color: #ffffff;
+
+	width:500px; 200px
+	height:500px; 200px
+	margin: 10px;
+	border:5px solid white;
+	background-color: white;
+	box-shadow:1px 1px 3px rgba(0,0,0,.4);
+}
+
+ul#album li#foto02 {
+	background: url("album/foto02.jpg") no-repeat;
+	background-position: 50px 50px;
+	background-size: 1100px 403px;
+	background-color: #ffffff;
+}
+
+ul#album li#foto03 {
+	background: url("album/foto03.jpg") no-repeat;
+	background-position: 50px 50px;
+	background-size: 550px 840px;
+	background-color: #ffffff;
+}
+
+ul#album li#foto04 {
+	background: url("album/foto04.jpg") no-repeat;
+	background-position: 50px 50px;
+	background-size: 550px 840px;
+	background-color: #ffffff;
+}
+
+ul#album li#foto05 {
+	background: url("album/foto05.jpg") no-repeat;
+	background-position: 50px 50px;
+	background-size: 550px 409px;
+	background-color: #ffffff;
+}
+
+ul#album li#foto06 {
+	background: url("album/foto06.jpg") no-repeat;
+	background-position: 50px 50px;
+	background-size: 550px 409px;
+	background-color: #ffffff;
+}
+
+ul#album li#foto07 {
+	background: url("album/foto07.jpg") no-repeat;
+	background-position: 50px 50px;
+	background-size: 550px 409px;
+	background-color: #ffffff;
+}
+
+ul#album li#foto08 {
+	background: url("album/foto08.jpg") no-repeat;
+	background-position: 50px 50px;
+	background-size: 1100px 403px;
+	background-color: #ffffff;
+}
+
+ul#album li span {
+	opacity: 0;
+	color:#ffffff;
+	text-shadow:1px 1px 1px #000000 ;
+	background-color: rgba(0,0,0,.3);
+	font-size: 9pt;
+	line-height: 370px;
+	padding: 5px; /*aumenta a largura da caixa da legenda*/
+}
+
+ul#album li:hover span{
+	opacity:1;
+}

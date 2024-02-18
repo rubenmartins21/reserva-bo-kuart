@@ -1,0 +1,44 @@
+@charset "UTF-8";
+
+
+/*formatação do menu*/
+		nav#menu2 {
+			display:block;
+			text-align: center;
+
+		}
+
+		
+
+		nav#menu2 ul{
+			list-style:none;
+			top:100px;
+			left: 450px; /*desloca o menu*/
+
+
+		}
+
+		nav#menu2 li{
+			display: inline-block;
+			/*background-color:rgb(215,215,215);*/
+			padding: 10px;
+			margin: 2px;
+			/*transition: background-color 4s;*/
+		}
+
+		nav#menu2 li :hover {
+			background-color: rgb(121,121,121);
+			
+
+		}
+
+
+
+		nav#menu2 a{
+			color:#000000;
+			text-decoration:none; 
+
+		}
+		
+		nav#menu2 a:hover {
+			color:#ffffff;

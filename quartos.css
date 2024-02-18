@@ -1,0 +1,91 @@
+@charset "UTF-8";
+
+@font-face{
+	font-family: "Fontelogo";
+	src: url("bubblegum-sans-regular.otf");
+}
+
+
+	
+
+
+		figure.albumlegenda {
+			position:relative;
+			border:8px solid white;
+			box-shadow:1px 1px 4px black;
+			width: 40%; /*redimensionar a imagem*/
+			height:25%;
+			/*display:block;*/
+			margin: 50px 20px 20px 30px;
+
+
+		}
+
+		figure.albumlegenda img{
+			width:100%;
+			height: 100%;
+		}
+
+
+
+		figure.albumlegenda figcaption{
+			opacity:0;
+			position: absolute;
+			top:0px;
+			background-color: rgba(0,0,0, .4);
+			color:white;
+			width: 100%;
+			height: 100%;
+		}
+
+		figure.albumlegenda:hover figcaption{
+			opacity:1;
+			-webkit-transition: all 1s ease-in;
+		}
+
+
+		h2#leg {
+			display:block;
+			text-align:center;
+			margin:150px 150px auto 150px;/*espacamento da caixa amarela*/
+			color:#ffffff;
+			background-color: rgb(232,156,17);
+			padding:5px;
+			text-shadow:1px 1px 1px #000000 ;
+
+		}
+
+
+		a{
+			text-decoration:none;
+			color:white;
+		}
+
+
+		p#pquarto{
+			display: block;
+			text-align:justify;
+			text-indent:50px;
+			font-size:12pt;
+			width: 500px;
+			margin:20px 20px 60px 20px;
+		}
+
+
+		h2#tquarto{
+			display:block;
+			font-family:  'Fontelogo', sans-serif;
+			margin:10px auto 10px 190px ;
+
+
+		}
+
+
+
+	
+	
+
+
+		
+	
+
